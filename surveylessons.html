@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Review</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="screenshot" id="screenshot">
+        <i>(Take the screenshot of the information below)</i>
+        Date: <span id="today"></span>
+        <br>
+        Name: <span id="name-given"></span>
+        <br>
+        Grade: <span id="grade-given"></span>
+        <br>
+        Subject: <span id="subject-given"></span>
+        <hr>
+
+        Topic: <span id="topic-given"></span>
+        <hr>
+        Objectives: <span id="objectives-given"></span>
+        <hr>
+        Enjoyment: <span id="enjoyment-given"></span>
+        <hr>
+        Struggles: <span id="struggles-given"></span>
+
+    </div>
+    <div class="all" id="all">
+        <h1>Kganyakatsebo <br>Lesson Review</h1>
+        <div class="inputs">
+            <input type="text" name="" id="name" placeholder="Enter your name">
+            <br>
+            <input type="text" name="" id="grade" placeholder="Enter your grade">
+            <br>
+            <div class="subjects">
+            <span class="subject">Subject (Choose only one subject)</span>
+            <br>
+            <input type="radio" name="subject" id="mathematics"><span class="subject">Mathematics</span>
+            <br>
+            <input type="radio" name="subject" id="physics"><span class="subject">Physical Sciences</span>
+        </div>
+            <h2>Details about the lesson</h2>
+            <input type="text" name="" id="topic" placeholder="Topic for the lesson">
+            <br>
+            <span class="questions">1. What were the objectives of the lesson?</span>
+            
+            <textarea name="" id="objectives" placeholder="" class="responses"></textarea>
+            <br>
+            <span class="questions">2. Which parts did you enjoy the most?</span>
+            
+            <textarea name="" id="enjoyment" placeholder="" class="responses"></textarea>
+            <br>
+            <span class="questions">3. Which parts did you struggle to understand?</span>
+            
+            <textarea name="" id="struggles" placeholder="" class="responses" ></textarea>
+           
+
+
+
+        </div>
+
+        <button type="button" id="submit"> Submit</button>
+
+
+
+
+
+
+    </div>
+
+    <script src="survey.js"></script>
+</body>
+</html>
